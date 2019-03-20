@@ -1,0 +1,10 @@
+
+In line number 5 of your output:
+The output should be:
+Balance: $400.00
+But your output is: 
+Balance: $ 400.00
+          ^
+----------|
+Professor's character ASCII code: hex(34), dec(52)
+un-matched character ASCII code: hex(20), dec(32)
