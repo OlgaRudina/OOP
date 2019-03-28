@@ -1,0 +1,3 @@
+Command Line : L1.exe oop345 dps941 
+Maximum number of characters stored: 30: oopÌ
+1: dpsÌ
