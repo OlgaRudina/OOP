@@ -1,0 +1,4 @@
+﻿  CustomerOrder.cpp
+c:\users\alice\documents\college\oop\ms2\ms2\customerorder.cpp(246): warning C4018: '<': signed/unsigned mismatch
+CustomerOrder.obj : error LNK2001: unresolved external symbol "private: static int CustomerOrder::field_width" (?field_width@CustomerOrder@@0HA)
+C:\Users\Alice\Documents\College\OOP\MS2\Debug\MS2.exe : fatal error LNK1120: 1 unresolved externals
