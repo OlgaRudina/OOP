@@ -1,0 +1,29 @@
+﻿  w7.cpp
+c:\users\alice\documents\college\oop\l7\lab7\datatable.h(64): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  c:\users\alice\documents\college\oop\l7\lab7\datatable.h(58): note: while compiling class template member function 'void w7::DataTable<float>::regression(T &,T &) const'
+          with
+          [
+              T=float
+          ]
+  c:\users\alice\documents\college\oop\l7\w7.cpp(40): note: see reference to function template instantiation 'void w7::DataTable<float>::regression(T &,T &) const' being compiled
+          with
+          [
+              T=float
+          ]
+  c:\users\alice\documents\college\oop\l7\w7.cpp(34): note: see reference to class template instantiation 'w7::DataTable<float>' being compiled
+c:\users\alice\documents\college\oop\l7\lab7\datatable.h(53): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  c:\users\alice\documents\college\oop\l7\lab7\datatable.h(50): note: while compiling class template member function 'float w7::DataTable<float>::median(void) const'
+  c:\users\alice\documents\college\oop\l7\w7.cpp(45): note: see reference to function template instantiation 'float w7::DataTable<float>::median(void) const' being compiled
+c:\users\alice\documents\college\oop\l7\lab7\datatable.h(55): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+c:\users\alice\documents\college\oop\l7\lab7\datatable.h(41): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  c:\users\alice\documents\college\oop\l7\lab7\datatable.h(39): note: while compiling class template member function 'float w7::DataTable<float>::sigma(void) const'
+  c:\users\alice\documents\college\oop\l7\w7.cpp(45): note: see reference to function template instantiation 'float w7::DataTable<float>::sigma(void) const' being compiled
+c:\users\alice\documents\college\oop\l7\lab7\datatable.h(43): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+c:\users\alice\documents\college\oop\l7\lab7\datatable.h(34): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  c:\users\alice\documents\college\oop\l7\lab7\datatable.h(32): note: while compiling class template member function 'float w7::DataTable<float>::mean(void) const'
+  c:\users\alice\documents\college\oop\l7\w7.cpp(45): note: see reference to function template instantiation 'float w7::DataTable<float>::mean(void) const' being compiled
+c:\users\alice\documents\college\oop\l7\lab7\datatable.h(73): warning C4018: '<': signed/unsigned mismatch
+  c:\users\alice\documents\college\oop\l7\lab7\datatable.h(69): note: while compiling class template member function 'void w7::DataTable<float>::display(std::ostream &) const'
+  c:\users\alice\documents\college\oop\l7\lab7\datatable.h(79): note: see reference to function template instantiation 'void w7::DataTable<float>::display(std::ostream &) const' being compiled
+  Lab7.vcxproj -> C:\Users\Alice\Documents\College\OOP\L7\Lab7\Debug\Lab7.exe
+  Lab7.vcxproj -> C:\Users\Alice\Documents\College\OOP\L7\Lab7\Debug\Lab7.pdb (Partial PDB)
