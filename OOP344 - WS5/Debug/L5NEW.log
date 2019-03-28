@@ -1,0 +1,11 @@
+﻿  W5.cpp
+c:\users\alice\documents\college\oop\l5new\l5new\grades.h(27): warning C4018: '<': signed/unsigned mismatch
+  c:\users\alice\documents\college\oop\l5new\l5new\w5.cpp(78): note: see reference to function template instantiation 'void sict::Grades::displayGrades<main::<lambda_b16b4c90f56a01328142e5d37325509b>>(std::ostream &,F) const' being compiled
+          with
+          [
+              F=main::<lambda_b16b4c90f56a01328142e5d37325509b>
+          ]
+  Grades.cpp
+  Generating Code...
+  L5NEW.vcxproj -> C:\Users\Alice\Documents\College\OOP\l5new\L5NEW\Debug\L5NEW.exe
+  L5NEW.vcxproj -> C:\Users\Alice\Documents\College\OOP\l5new\L5NEW\Debug\L5NEW.pdb (Partial PDB)

@@ -1,0 +1,6 @@
+﻿  w3.cpp
+c:\users\alice\documents\college\oop\l3\lab3\w3.cpp(43): warning C4018: '<': signed/unsigned mismatch
+c:\users\alice\documents\college\oop\l3\lab3\w3.cpp(66): warning C4018: '<': signed/unsigned mismatch
+c:\users\alice\documents\college\oop\l3\lab3\w3.cpp(14): warning C4101: 'width': unreferenced local variable
+  Lab3.vcxproj -> C:\Users\Alice\Documents\College\OOP\L3\Debug\Lab3.exe
+  Lab3.vcxproj -> C:\Users\Alice\Documents\College\OOP\L3\Debug\Lab3.pdb (Partial PDB)
