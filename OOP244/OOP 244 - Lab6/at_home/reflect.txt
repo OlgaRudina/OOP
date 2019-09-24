@@ -1,0 +1,26 @@
+// Workshop 6 - Class with a Resource
+// w6_at_home.cpp
+// Olga Rudina
+// 2018/07/18
+
+1) Why does the copy assignment operator check for self-assignment before
+doing anything else?
+
+The copy assignment operator check for self-assignment before
+doing anything else because it's important to avoid dublication which can provoke unpredictable behavior. 
+For example, if there is an element "x" in array and we have a line x = x somewhere in code the program can interpret it wrong and
+exit with an error or stop working at all.
+
+
+2) List how you avoided duplication of code.
+- constructors(default constructor, copy constructor, destructor, constructor with 3 parameters);
+- operator += and operator = overloading;
+- functions (to Array, isValid, digitsNum, isEmpty, display;
+
+3) List what you have learned in completing this workshop.
+
+In completing this workshop I have learned 
+how to get separate parts from array of integers;
+how to use copy constructor;
+how to overload += and = operators; 
+how to work with helper functions.

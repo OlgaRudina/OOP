@@ -1,0 +1,34 @@
+// WS9 at_home
+// Olga Rudina 039949136
+
+
+1. What happens if you try to put your templated functions in Data.cpp? Does your source code compile if you move all functions to Data.h? Explain.
+
+Compiler shows an error. It happens because compiler doesn't see some functions while it needs too see both template code and function code. 
+
+2. Move one templated function into ws9_lab.cpp. Does it work now? Do you need to define the template function above main(), before it is used, or can you define it below main()?
+
+Yes, you need to define the template function above main(). 
+
+3. Could you have done this lab without templates, by just overloading your functions in Data.h to accept integer and double arguments? What is the advantage of using templates?
+
+Yes, I could overload the functions to do this lab. However, using templates makes code more efficient and avoid dubplications. Also it allows to apply one code to different types of 
+parameters.  
+
+4. Are the following equivalent? template<class T>
+template<typename T>
+
+Yes, they are equivalent. However if we declare a template template parameter we should use class.
+
+Quiz 8 Reflect:
+Example of templated class:
+
+template <class myType>
+myType GetMax (myType a, myType b) {
+ return (a>b?a:b);
+}
+
+
+4th type of Polymorphism:
+- Inclusion: selects a member function definition within an inheritance hierarchy based on an object's dynamic type.
+ 

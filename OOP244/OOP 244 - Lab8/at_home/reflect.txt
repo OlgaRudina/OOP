@@ -1,0 +1,74 @@
+// OOP244 Workshop 8: Virtual Functions and Abstract Base Classes
+// 
+// Student: Olga Rudina, 039949136
+///////////////////////////////////////////////////
+
+1. What is the difference between an abstract base class and a concrete class?
+
+The difference between an abstract base class and a concrete class is that abstract classes usually 
+have no implementation. Concrete classes always have it. Another one difference is abstract classes
+may include abstract methods and concrete classes may not. 
+
+2. Identify the functions that shadow functions of the same name in your solution?
+
+All pure virtual functions from iAccount that are redefined in derived classes. 
+
+3. Explain what have you learned in this workshop.
+
+I have learned how to use vurtual functions; what the pure virtual function is; that virtual
+functions allow to manage objects of the different types as if they are objects of the same type.
+
+Quiz 8 Reflection
+
+What are the two types of function binding present in C++? Describe how they differ (hint: dynamic/static types may help in answering this question).
+
+1)Early Binding - based on the object's static type
+2)Dynamic Dispatch - based on the object's dynamic type
+
+
+Question 2:  
+What does the virtual keyword do in C++? Give an example a virtual function.
+
+The virtual keyword binds the function call to most derived version of the member function based on the dynamic type.
+Example: 
+
+class Base{
+
+public:
+virtual void PrintError() { cout<< "Error 501" << endl; } 
+
+}
+
+class Derived : public Base{
+
+public:
+
+void PrintError() { cout<< "Error 404" << endl; } 
+
+}
+
+in main()
+
+{
+Base *ptr;
+Derived a;
+ptr = &a;
+
+ptr->PrintError(); //virtual function
+
+}
+
+ 
+Question 3:  
+What is an abstract base class? Describe it and give an example of one. 
+
+Abstract base class is a class which contains at least one pure virtual function. 
+
+class iCat {
+	
+
+public:
+
+virtual void meow() = 0; 
+
+}

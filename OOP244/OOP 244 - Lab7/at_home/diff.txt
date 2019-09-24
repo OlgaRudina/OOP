@@ -1,0 +1,10 @@
+
+In line number 18 of your output:
+The output should be:
+Super Fight! Superman vs The_Hulk : Winner is The_Hulk in 5 rounds.
+But your output is: 
+SuperFight! Superman vs The_Hulk : Winner is The_Hulk in 5 rounds.
+     ^
+-----|
+Professor's character ASCII code: hex(20), dec(32)
+un-matched character ASCII code: hex(46), dec(70)

@@ -1,0 +1,28 @@
+// OOP244 Workshop 2: Dynamic Memory
+// File reflect
+// Date 27.05.2018
+// Author Olga Rudina
+// Student ID: 039949136
+
+1) Why do you need to allocate new dynamic memory when you increase the size of an existing array of dynamically allocated memory?
+
+You need to allocate new dynamic memory when you increase the size of an existing array of dynamically allocated memory because in our case we reserved memory 
+in the array only for 2 elements (it's assigned to variable "count" after user input) thus there is no space for another one element in the array. 
+That's why we are supposed to allocate a new array and copy all elements of old array to the new one, then deallocate the old array.  
+
+2) The Kingdom structure stores the name of the kingdom in an array of characters. 
+At the end of the program, we do not use the delete operator to deallocate the memory occupied by the name. 
+Why don’t we need to use the delete operator on this array itself? Explain. 
+
+We don't use the delete operator to deallocate the memory occupied by the name because it's not allocated dynamic memory. 
+It uses the static memory. Also, it has fixed size so there is no chance for memory leak. 
+
+3) There are two display(...) function definitions. How does the compiler know which definition to call from your main function? 
+
+The compiler knows which definition to call from your main function by types of passing arguments. 
+
+4) Explain what have you have learned in this workshop. 
+
+I have learned in this workshop how to allocate and deallocate dynamic memory for array elements; 
+how to add new element to array, and I understand now that it can't be added without allocation/deallocation memory. 
+
