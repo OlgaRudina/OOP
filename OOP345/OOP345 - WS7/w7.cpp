@@ -7,7 +7,6 @@
  #include <string>
  #include "DataTable.h"
 
-
  const int FW = 7;
  const int ND = 2;
 
