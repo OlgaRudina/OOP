@@ -1,0 +1,110 @@
+CPU         [123456] Quantity 5            Description: Central Processing Unit
+
+Memory      [654321] Quantity 10           Description: Basic Flash Memory
+
+GPU         [456789] Quantity 2            Description: General Porcessing Unit
+
+SSD         [987654] Quantity 5            Description: Solid State Drive
+
+Power Supply[147852] Quantity 20           Description: Basic AC Power Supply
+
+
+Manual Validation
+getName(): CPU
+getSerialNumber(): 123456
+getSerialNumber(): 123457
+getQuantity(): 5
+getQuantity(): 4
+
+************************
+CPU         [123458] Quantity 4            Description: Central Processing Unit
+
+Memory      [654321] Quantity 10           Description: Basic Flash Memory
+
+GPU         [456789] Quantity 2            Description: General Porcessing Unit
+
+SSD         [987654] Quantity 5            Description: Solid State Drive
+
+Power Supply[147852] Quantity 20           Description: Basic AC Power Supply
+
+CPU         [123456] Quantity 5            Description: Central Processing Unit
+
+Memory      [654321] Quantity 10           Description: Basic Flash Memory
+
+GPU         [456789] Quantity 2            Description: General Porcessing Unit
+
+SSD         [987654] Quantity 5            Description: Solid State Drive
+
+Power Supply[147852] Quantity 20           Description: Basic AC Power Supply
+
+
+Manual Validation
+getName(): CPU
+getSerialNumber(): 123458
+getSerialNumber(): 123459
+getQuantity(): 4
+getQuantity(): 3
+
+************************
+Elliott C.
+Gaming PC
+[0]CPU-MISSING
+[0]Memory-MISSING
+[0]GPU-MISSING
+[0]GPU-MISSING
+[0]GPU-MISSING
+[0]SSD-MISSING
+[0]Power Supply-MISSING
+Chris S.
+Laptop
+[0]CPU-MISSING
+[0]Memory-MISSING
+[0]SSD-MISSING
+[0]Power Supply-MISSING
+Mary-Lynn M.
+Desktop PC
+[0]CPU-MISSING
+[0]Memory-MISSING
+[0]Power Supply-MISSING
+Chris T.
+Micro Controller
+[0]GPU-MISSING
+[0]GPU-MISSING
+[0]Power Supply-MISSING
+[0]SSD-MISSING
+
+Manual Validation
+Chris T.
+Micro Controller
+[0]GPU-MISSING
+[0]GPU-MISSING
+[0]Power Supply-MISSING
+[0]SSD-MISSING
+Chris T.
+Micro Controller
+[0]GPU-MISSING
+[0]GPU-MISSING
+[0]Power Supply-MISSING
+[0]SSD-MISSING
+*******
+Chloe
+Flight PC
+[0]CPU-MISSING
+[0]GPU-MISSING
+[0]Power Supply-MISSING
+Mary-Lynn M.
+Desktop PC
+[0]CPU-MISSING
+[0]Memory-MISSING
+[0]Power Supply-MISSING
+*******
+getFillStatus(): MISSING
+Filled Mary-Lynn M., Desktop PC[CPU]
+getFillStatus(): MISSING
+Filled Mary-Lynn M., Desktop PC[CPU]
+Filled Mary-Lynn M., Desktop PC[Memory]
+Filled Mary-Lynn M., Desktop PC[Power Supply]
+Filled Mary-Lynn M., Desktop PC[CPU]
+Filled Mary-Lynn M., Desktop PC[Memory]
+Filled Mary-Lynn M., Desktop PC[Power Supply]
+getFillStatus(): FILLED
