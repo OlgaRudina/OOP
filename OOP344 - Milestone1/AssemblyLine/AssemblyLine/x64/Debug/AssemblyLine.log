@@ -1,8 +1,0 @@
-﻿  Utilities.cpp
-  Item.cpp
-c:\users\alice\documents\college\oop\m1\assemblyline\assemblyline\item.cpp(25): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
-  AssemblyLine.cpp
-  Compiling...
-  Generating Code...
-  AssemblyLine.vcxproj -> C:\Users\Alice\Documents\College\OOP\m1\AssemblyLine\x64\Debug\AssemblyLine.exe
-  AssemblyLine.vcxproj -> C:\Users\Alice\Documents\College\OOP\m1\AssemblyLine\x64\Debug\AssemblyLine.pdb (Partial PDB)
